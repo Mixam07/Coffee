@@ -1,0 +1,71 @@
+.center{
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title{
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 120%;
+  margin-bottom: 25px;
+  color: #fff;
+  &_photo{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000;
+  }
+  &_main{
+    margin-bottom: 20px;
+    line-height: 130%;
+    font-weight: 600;
+    font-size: 43px;
+    color: #000;
+  }
+  &_footer{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+}
+.subtitle{
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 50px;
+  &_main{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 60px;
+    color: #000;
+  }
+  &_photo{
+    margin-bottom: 30px;
+    font-style: normal;
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.6;
+  }
+  &_footer{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    a{
+      color: #fff;
+    }
+  }
+}

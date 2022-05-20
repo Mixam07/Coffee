@@ -1,0 +1,50 @@
+.info{
+  background: url("../img/bg/mask_left.png")left center/auto 100% no-repeat, #000 url("../img/bg/mask_right.png")right center/auto 100% no-repeat;
+  font-family: 'Open Sans';
+  padding: 100px 0;
+  color: #fff;
+  .title{
+    color: #fff;
+    margin-bottom: 60px;
+  }
+  &__text{
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #FF4B32;
+    position: relative;
+    &:before{
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 2px;
+      background: #FF4B32;
+      width: 95px;
+    }
+  }
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__gmail,
+  &__telephone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    a{
+      margin-left: 15px;
+      display: block;
+      font-weight: normal;
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+  }
+  &__gmail{
+    margin-bottom: 30px;
+  }
+}

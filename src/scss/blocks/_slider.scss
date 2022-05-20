@@ -1,0 +1,44 @@
+.slider{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0;
+  background-color: rgba($color: #000000, $alpha: 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+  &_active{
+    z-index: 0;
+    background-color: rgba($color: #000000, $alpha: 0.75);
+    opacity: 1;
+  }
+  .arrow{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    img{
+      height: 50px;
+    }
+    &__left{
+      left: 25px;
+    }
+    &__right{
+      right: 25px;
+    }
+  }
+  &__wrapper{
+    transition: 0.5s opacity;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    img{
+      height: 650px;
+      border-radius:15px;
+      max-width: 1050px;
+    }
+  }
+}
